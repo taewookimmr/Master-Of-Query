@@ -1,6 +1,6 @@
 ## ANIMAL_INS Schema
 
-|name|type|nullable|
+|NAME|NAME|NULLABLE|
 |:---|:---|:---:|
 |animal_id|varchar(n)|false|
 |animal_type|varchar(n)|false|
@@ -10,9 +10,9 @@
 |sex_upon_intake|varchar(n)|false|
 
 
-# ANIMAL_OUTS Schema
+## ANIMAL_OUTS Schema
 
-|NAME	|TYPE|	NULLABLE|
+|NAME	|NAME|	NULLABLE|
 |---|---|---|
 |ANIMAL_ID	|VARCHAR(N)|	FALSE|
 |ANIMAL_TYPE|	VARCHAR(N)|	FALSE|
