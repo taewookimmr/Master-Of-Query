@@ -1,21 +1,4 @@
-# Setting Postgresql on Mac
-
-## 1. homebrew를 사용한 설치
-
-* brew search postgresql
-* brew install postgresql
-* postgres --version // 버전 확인
-
-## 2. Postgresql 서비스 시작
-
-* postgres -D /usr/local/var/postgres
-
-## 3. psql 명령어 
-
-* to be continued
-
-
-# 기본적인 아키텍처 
+## 기본적인 아키텍처 
 
 * PostgreSQL은 클라이언트/서버 모델을 사용한다.
 
@@ -27,4 +10,11 @@
 
 
 * PostgreSQL 서버는 클라리언트로부터 복수의 동시 연결을 처리할 수 있다. 병행성이 있다는 것. 클라이언트 및 연결된 서버 프로세스들은 오고 가는 하는 반면에, 마스터 서버 프로세스는 클라이언트 연결을 대기하면서 항상 실행 중인 상태!
+
+## 개념
+
+* postgresql은 RDBMS이다.
+* 각 테이블은 행이라고 불리은 것들의 컬렉션이다. 
+* 테이블은 데이터베이스로 그룹화되고, 단일 PostgreSQL 서버 인스턴스에서 관리하는 데이터베이스 컬렉션은 데이터베이스 클러스터를 구성한다.
+
 
